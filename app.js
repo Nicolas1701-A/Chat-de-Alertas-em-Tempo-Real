@@ -1,6 +1,6 @@
 // 1. CONFIGURAÇÃO (Substitua pelos dados do SEU painel do Supabase)
-const SUPABASE_URL = 'SUA_URL_AQUI';
-const SUPABASE_KEY = 'SUA_CHAVE_ANON_AQUI';
+const SUPABASE_URL = 'https://vadldqecuxbtfehhshhg.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZhZGxkcWVjdXhidGZlaGhzaGhnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU2ODM2MjUsImV4cCI6MjA5MTI1OTYyNX0.LQAXafIcuXVrHxidfUO0Gmy7DYgTY9r6JJg6O328C1k';
 const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 // Referências do HTML
 const listaHTML = document.getElementById('listaDeAlertas');
